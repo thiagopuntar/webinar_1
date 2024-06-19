@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Verdana", sans-serif
+}
+
+.header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 4px;
+}
+
+.header__strong {
+  margin-right: 6px;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
