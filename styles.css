@@ -49,3 +49,29 @@
   font-weight: 700;
 }
 
+.title {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 16px;
+  font-weight: 400;
+}
+
+.container {
+  padding-inline: 24px;
+}
+
+.projects {
+  margin-top: 80px;
+}
+
+.projects__list {
+  margin-top: 32px;
+  list-style-type: none;
+}
+
+.card__text {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+}
+
