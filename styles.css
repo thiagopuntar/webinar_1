@@ -5,7 +5,7 @@
 }
 
 .page {
-  font-family: "Verdana", sans-serif
+  font-family: "Verdana", sans-serif;
 }
 
 .header {
@@ -24,3 +24,28 @@
   list-style-type: none;
   gap: 24px;
 }
+
+.hero {
+  background-image: url(./images/architect.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title {
+  color: white;
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.hero__title-effect {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px 16px;
+  font-weight: 700;
+}
+
